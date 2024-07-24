@@ -1,0 +1,274 @@
+* {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+a {
+	color:#226DFF;
+}
+a:hover {
+	color:#226DFF;
+}
+h1, h2, h3 {
+	font-weight: 700;
+}
+h4, h5 {
+	font-weight:600;
+}
+h6 {
+	font-weight:500;
+}
+.navbar {
+	position: fixed;
+	right: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	min-height: 50px;
+	line-height: 50px;
+	background: #226DFF;
+	z-index: 1030;
+	padding: 0px;
+}
+.navbar .active {
+	color: #fff !important;
+}
+.navbar .navbar-brand {
+}
+.navbar .nav-item {
+	margin: 0 5px;
+	padding: 0;
+}
+.navbar .nav-item a {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+}
+.navbar .nav-item a:hover {
+	color: black;
+}
+.navbar .nav-link {
+	position: relative;
+	padding: 0;
+}
+.navbar .navbar-toggler {
+	cursor: pointer;
+}
+.navbar .navbar-toggler span {
+	color: #fff;
+}
+.navbar-style2 .active:after, .navbar-style2 .nav-link:after {
+	display: none;
+}
+.nav-scroll {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+.nav-scroll .navbar-nav > li > a {
+	color: #333;
+}
+.nav-scroll .navbar-brand img {
+	-webkit-transform: scale(1.03) !important;
+	transform: scale(1.03) !important;
+}
+.nav-scroll .navbar-toggler {
+	cursor: pointer;
+}
+.nav-scroll .navbar-toggler span {
+	color: #333;
+}
+.nav-scroll .nav-link:hover:after {
+	background-color: #2388ed;
+}
+.nav-scroll .active {
+	position: relative;
+	color: black;
+}
+.logo-1{
+	width: 55px;
+	height: 55px;
+}
+
+/* Container styles */
+/* .container {
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.banner {
+	/* background: #226DFF; */
+	/* background: linear-gradient(135deg, #226DFF, #ffffff); */
+	padding:60px 0px;
+	position:relative;
+}
+.banner::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/* background: linear-gradient(135deg, #226DFF, #ffffff); */
+	/* background: url(images/pattern.png); */
+}
+.banner a.weblink {
+	color:#ffffff;
+	border-bottom:1px dotted #ffffff;
+}
+.banner a:hover {
+	text-decoration:none;
+}
+.svg-wave {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.banner-text {
+	padding-right:80px;
+	margin:50px 0px 0px;
+}
+.banner-text p {
+	margin:40px 0px;
+}
+.banner-text ul {
+	list-style: none;
+}
+.banner-text ul li {
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+}
+.banner-text ul li a {
+	display: block;
+}
+.banner-text ul li a img {
+	padding-bottom: 40px;
+	width: 150px;
+	border-radius: 7px;
+}
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    /* background: #226DFF; */
+    color: #226DFF;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.content h2, .content h3 {
+    color: #226DFF;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.content h2 {
+    margin-top: 30px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #226DFF;
+    padding-bottom: 10px;
+}
+
+.content h3 {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.content ul li strong {
+    font-weight: 600;
+}
+
+/* Links */
+.content a {
+    color: #226DFF;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+.footer-copy {
+	background: white; /* Light grey background for better contrast */
+	color: #343a40; /* Dark grey text for readability */
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 0;
+	 /* Subtle shadow for depth */
+  }
+  
+  .footer-copy p {
+	margin: 0;
+
+  }
+  
+  .footer-copy a {
+	color: #007bff; /* Blue color for the link */
+	text-decoration: none; /* Remove underline from link */
+  }
+  
+  .footer-copy a:hover {
+	text-decoration: underline; /* Underline on hover for better user experience */
+  }
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    .content h3 {
+        font-size: 1.2em;
+    }
+    .footer-copy p {
+        font-size: 10px;
+    }
+}
